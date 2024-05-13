@@ -1,0 +1,42 @@
+#title {
+    color: #fff;
+    font-weight: 100;
+    font-size: 28px;
+    padding:10px;
+    border:1px solid #fff;
+    background-color: #55608f;
+}
+
+table, th, td {
+    border: 1px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 100%;
+
+}
+th{
+    background-color: gray;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+#type
+{
+    font-size: 20px;
+}
+
+button
+{
+    font-size: 20px;
+
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
